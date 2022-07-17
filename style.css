@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.parent{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 5fr 4fr 3fr;
+	grid-template-rows: 2fr 4fr 4fr;
+	text-align: center;
+
+
+}
+.box1{
+	grid-column: 1/2;
+	grid-row: 1/3;
+	background:black ;
+}
+.box2{
+	grid-column: 2/4;
+	background: green;
+}
+.box3{
+	background:greenyellow ;
+	grid-column: 1/2;
+}
+.box4{
+	grid-column: 2/3;
+	grid-row: 2/4;
+	background:skyblue ;
+}
+.box5{
+	grid-column: 3/4;
+	grid-row: 2/3;
+	background: crimson;
+}
+.box6{
+	background:tomato ;
+}
